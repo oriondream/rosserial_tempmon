@@ -5,8 +5,9 @@ sensor and publish the temperature in the /Temperature topic as it is
 connected to a ROS computer.
 
 # Hardware connection
-The output pin of the sensor should be connected to digital pin 2. A 4.7kohm
-resistor should bridge the Vin and the data pin of the sensor.
+The output pin of the sensor should be connected to digital pin 2. A pull up
+resistor of 4.7kohm should be placed between the Vin and the data pin of the 
+sensor.
 
 # Prerequisits
 
